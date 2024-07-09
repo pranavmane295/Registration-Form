@@ -184,3 +184,57 @@ input{
     margin: 30px;
     padding: 0px;
 }
+
+@media (max-width: 500px)
+{
+    .details-panel {
+        background-color: #2d3748; /* Adjust background color */
+        padding: 20px;
+        border-radius: 8px;
+        color: white;
+        margin-left: 100px;
+        margin-bottom: 30px;
+        min-height: 490px;
+        
+        
+    }
+}
+
+@media (max-width: 996px) {
+    .flex {
+         flex-direction: column;
+     }
+ 
+    .registration-form{
+        width: 90%; 
+        margin: 20px auto; 
+        min-width: 380px;
+        padding: 20px;
+        margin-top: 200px;
+    }
+    
+    .details-panel {
+         width: 90%; 
+         margin: 20px auto; 
+         margin-bottom: 100px;
+     }
+ 
+    .employees-list {
+         margin: 20px; 
+     }
+ 
+    .employee-item {
+         width: 100%; 
+     }
+     .form-group input {
+        width: 90%;
+        padding: 0.75rem;
+        font-size: 1rem;
+        border: 2px solid #4a5568; 
+        border-radius: 4px;
+        background-color: #cbd5e0; 
+        color: #2d3748;
+        transition: border-color 0.3s ease;
+    }
+    
+ }
