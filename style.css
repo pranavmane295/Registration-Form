@@ -185,21 +185,6 @@ input{
     padding: 0px;
 }
 
-@media (max-width: 500px)
-{
-    .details-panel {
-        background-color: #2d3748; /* Adjust background color */
-        padding: 20px;
-        border-radius: 8px;
-        color: white;
-        margin-left: 100px;
-        margin-bottom: 30px;
-        min-height: 490px;
-        
-        
-    }
-}
-
 @media (max-width: 996px) {
     .flex {
          flex-direction: column;
