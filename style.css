@@ -193,7 +193,7 @@ input{
     .registration-form{
         width: 90%; 
         margin: 20px auto; 
-        min-width: 380px;
+        min-width: 250px;
         padding: 20px;
         margin-top: 200px;
     }
