@@ -218,13 +218,13 @@ body {
     }
 
     .employee-item {
-        width: 100%;
+        width: 90%;
         font-size: 0.65rem;
         /* text-align: center;  */
     }
 
     .employees-list {
-        
+        width: 90%;
         padding: 10px;
        
         border-radius: 8px;
